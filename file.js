@@ -14,4 +14,4 @@ function myFunction(x) {
   }
 }
 
-hamburguer.addEventListener('click', myFunction);
+hamburguer.addEventListener('click', myFunction());
