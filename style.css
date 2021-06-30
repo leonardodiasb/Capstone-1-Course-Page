@@ -1,13 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
 
-
 @font-face {
   font-family: "COCOGOOSE";
   src: url("fonts/Cocogoose_trial.eot") format("eot"), url("fonts/Cocogoose_trial.woff") format("woff"), url("fonts/Cocogoose_trial.ttf") format("truetype"), url("fonts/Cocogoose_trial.svg#COCOGOOSE") format("svg");
   font-weight: normal;
   font-style: normal;
 }
-
 
 html * {
   box-sizing: border-box;
@@ -41,7 +39,9 @@ ul {
   z-index: 2;
 }
 
-.bar1, .bar2, .bar3 {
+.bar1,
+.bar2,
+.bar3 {
   width: 30px;
   height: 6px;
   background-color: #333;
@@ -50,8 +50,8 @@ ul {
 }
 
 .change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-  transform: rotate(-45deg) translate(-9px, 6px) ;
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
 }
 
 .change .bar2 {
@@ -59,8 +59,8 @@ ul {
 }
 
 .change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-  transform: rotate(45deg) translate(-8px, -8px) ;
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
 }
 
 #mobile_menu {
@@ -125,7 +125,7 @@ ul {
 #log-section a:hover {
   background-color: #ec5242;
   transition: 600ms;
-} 
+}
 
 #menu-section {
   display: none;
@@ -202,7 +202,7 @@ ul {
 .subtitle {
   margin: 0 12px 18px 12px;
   border: 2px solid #fff;
-  padding:  16px;
+  padding: 16px;
   font-size: 14px;
   color: #272a31;
 }
@@ -221,7 +221,7 @@ ul {
   align-items: center;
 }
 
-#main-program *{
+#main-program * {
   color: #fff;
 }
 
@@ -238,7 +238,7 @@ ul {
 
 #programs li {
   display: flex;
-  align-items: center; 
+  align-items: center;
   margin: 8px 12px;
   background-color: #3c3f46;
   border: 1px solid transparent;
@@ -395,7 +395,7 @@ ul {
 }
 
 .past-classes-box {
-  margin: 10px 30px 0 30px; 
+  margin: 10px 30px 0 30px;
   position: relative;
 }
 
@@ -426,7 +426,6 @@ ul {
 }
 
 @media (min-width: 768px) {
-
   #hamburger-btn {
     display: none;
   }
@@ -442,15 +441,15 @@ ul {
   #headline {
     padding: 120px 0 150px 140px;
   }
-  
+
   .first-title {
     margin: 0;
   }
-  
+
   .first-title p {
     font-size: 34px;
   }
-  
+
   .second-title {
     margin: 0;
     margin-top: 20px;
@@ -459,7 +458,7 @@ ul {
     line-height: 58px;
     width: 800px;
   }
-  
+
   .subtitle {
     margin: 0;
     width: 600px;
@@ -467,7 +466,7 @@ ul {
     padding: 18px;
     line-height: 22px;
   }
-  
+
   .dates {
     margin: 0;
     margin-top: 30px;
@@ -478,20 +477,20 @@ ul {
     font-size: 18px;
     margin-top: 40px;
   }
-  
+
   #programs {
     display: flex;
     margin-top: 20px;
     margin-bottom: 30px;
   }
-  
+
   #programs li {
     flex-direction: column;
     margin: 0 2px;
     max-width: 200px;
     text-align: center;
   }
-  
+
   .program-logo {
     width: 40px;
     margin-top: 16px;
@@ -501,7 +500,7 @@ ul {
     font-size: 20px;
     margin-top: 12px;
   }
-  
+
   .program-description {
     margin: 12px 16px 20px 16px;
   }
@@ -518,17 +517,17 @@ ul {
     color: #272a31;
     transition: 200ms;
   }
-  
+
   #see-program-link:hover a {
     color: #272a31;
     transition: 200ms;
   }
-  
+
   #partner-section .section-title {
     color: #8d8d8d;
     margin-bottom: 20px;
   }
-  
+
   .partner-logo img {
     width: 300px;
   }
@@ -536,7 +535,7 @@ ul {
   #footer {
     padding: 30px 0 30px 140px;
   }
-  
+
   .logo-footer img {
     width: 350px;
   }
@@ -552,32 +551,32 @@ ul {
   #about-section .first-title {
     display: none;
   }
-  
+
   #about-section .red-bar {
     margin: 30px 0;
   }
-  
+
   #about-section .subtitle {
     margin-bottom: 40px;
   }
-  
+
   #logo-section div p {
     font-size: 16px;
     max-width: 600px;
   }
-  
+
   #logo-section-box {
     margin: 20px 0 60px 0;
   }
-  
+
   #logo-section-box img {
     width: 500px;
   }
-  
+
   #past-classes {
     padding-bottom: 60px;
   }
-  
+
   .past-classes-info {
     font-size: 16px;
     max-width: 600px;
@@ -587,7 +586,7 @@ ul {
     display: flex;
     margin: 20px 0;
   }
-  
+
   .past-classes-box {
     max-width: 350px;
     margin: 0 10px;
