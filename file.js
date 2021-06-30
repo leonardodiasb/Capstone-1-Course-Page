@@ -3,7 +3,7 @@ const mobMenu = document.getElementById('mobile_menu');
 
 function myFunction(x) {
   x.classList.toggle('change');
-  if (mobMenu.style.visibility == 'visible') {
+  if (mobMenu.style.visibility === 'visible') {
     mobMenu.style.visibility = 'hidden';
     mobMenu.style.height = '0';
     mobMenu.style.overflowY = 'hidden';
@@ -13,3 +13,5 @@ function myFunction(x) {
     mobMenu.style.overflowY = 'auto';
   }
 }
+
+hamburguer.addEventListener('click', myFunction)

@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "COCOGOOSE";
-  src: url("fonts/Cocogoose_trial.eot") format("eot"), url("fonts/Cocogoose_trial.woff") format("woff"), url("fonts/Cocogoose_trial.ttf") format("truetype"), url("fonts/Cocogoose_trial.svg#COCOGOOSE") format("svg");
+  src: url("fonts/Cocogoose_Pro-trial.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -12,7 +12,7 @@ html * {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 body {
@@ -94,15 +94,6 @@ ul {
   border-bottom: 2px solid #ec5242;
 }
 
-#mobile_ul li:hover {
-  background-color: #ec5242;
-}
-
-#mobile_ul li:hover a {
-  color: #fff;
-  transition: 600ms;
-}
-
 #mobile_ul li a {
   color: #272a31;
 }
@@ -120,11 +111,6 @@ ul {
   font-size: 14px;
   font-weight: 300;
   color: #fff;
-}
-
-#log-section a:hover {
-  background-color: #ec5242;
-  transition: 600ms;
 }
 
 #menu-section {
@@ -148,15 +134,6 @@ ul {
   margin-left: 20px;
 }
 
-#menu-items li:hover {
-  background-color: #f7f7f9;
-  cursor: pointer;
-}
-
-#menu-items li:hover a {
-  color: #ec5242;
-}
-
 #menu-items li a {
   font-family: "Lato", sans-serif;
   font-size: 16px;
@@ -168,12 +145,6 @@ ul {
   padding: 8px 12px;
   color: #ec5242;
   font-size: 16px;
-}
-
-#sign-in-btn:hover {
-  background-color: #ec5242;
-  color: #41434b;
-  transition: 400ms;
 }
 
 #headline {
@@ -192,11 +163,14 @@ ul {
 
 .second-title {
   margin: 0 12px 20px 12px;
-  font-family: "COCOGOOSE", sans-serif;
   font-size: 24px;
   line-height: 30px;
   font-weight: bold;
   color: #ec5242;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
 }
 
 .subtitle {
@@ -209,6 +183,7 @@ ul {
 
 .dates {
   font-size: 24px;
+  font-family: "Lato", sans-serif;
   font-weight: bold;
   margin: 0 12px 80px 12px;
 }
@@ -242,11 +217,6 @@ ul {
   margin: 8px 12px;
   background-color: #3c3f46;
   border: 1px solid transparent;
-}
-
-#programs li:hover {
-  border: 1px solid #fff;
-  transition: 400ms;
 }
 
 .program-logo {
@@ -399,11 +369,6 @@ ul {
   position: relative;
 }
 
-.past-classes-box:hover {
-  filter: grayscale(50%);
-  transition: 600ms;
-}
-
 .past-classes-box a img {
   max-width: 100%;
   filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-35deg) saturate(600%) contrast(0.8);
@@ -423,6 +388,45 @@ ul {
 
 .past-classes-box p:hover {
   cursor: pointer;
+}
+
+#mobile_ul li:hover {
+  background-color: #ec5242;
+}
+
+#mobile_ul li:hover a {
+  color: #fff;
+  transition: 600ms;
+}
+
+#log-section a:hover {
+  background-color: #ec5242;
+  transition: 600ms;
+}
+
+#menu-items li:hover {
+  background-color: #f7f7f9;
+  cursor: pointer;
+}
+
+#menu-items li:hover a {
+  color: #ec5242;
+}
+
+#sign-in-btn:hover {
+  background-color: #ec5242;
+  color: #41434b;
+  transition: 400ms;
+}
+
+#programs li:hover {
+  border: 1px solid #fff;
+  transition: 400ms;
+}
+
+.past-classes-box:hover {
+  filter: grayscale(50%);
+  transition: 600ms;
 }
 
 @media (min-width: 768px) {
@@ -482,6 +486,10 @@ ul {
     display: flex;
     margin-top: 20px;
     margin-bottom: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
   }
 
   #programs li {
@@ -510,17 +518,6 @@ ul {
     background: none;
     padding: 0;
     margin-bottom: 80px;
-  }
-
-  #see-program-link:hover {
-    background-color: #fff;
-    color: #272a31;
-    transition: 200ms;
-  }
-
-  #see-program-link:hover a {
-    color: #272a31;
-    transition: 200ms;
   }
 
   #partner-section .section-title {
@@ -590,5 +587,16 @@ ul {
   .past-classes-box {
     max-width: 350px;
     margin: 0 10px;
+  }
+
+  #see-program-link:hover {
+    background-color: #fff;
+    color: #272a31;
+    transition: 200ms;
+  }
+
+  #see-program-link:hover a {
+    color: #272a31;
+    transition: 200ms;
   }
 }
