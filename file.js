@@ -14,7 +14,7 @@ function myFunction(x) {
   }
 }
 
-hamburger.addEventListener('click', myFunction(this));
+hamburger.addEventListener('click', myFunction);
 
 const professors = [
   {
