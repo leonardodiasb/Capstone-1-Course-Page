@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "COCOGOOSE";
-  src: url("fonts/Cocogoose_Pro-trial.ttf") format("truetype");
+  src: url("fonts/cocogoose-pro.regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -32,8 +32,8 @@ ul {
 
 #hamburger-btn {
   position: fixed;
-  margin-top: 6px;
-  margin-left: 12px;
+  margin-top: 16px;
+  margin-left: 30px;
   display: inline-block;
   cursor: pointer;
   z-index: 2;
@@ -157,7 +157,8 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: #f7f7f9;
+  background-image: url("images/background.png");
+  padding: 4px;
 }
 
 .first-title {
@@ -173,10 +174,11 @@ ul {
   line-height: 30px;
   font-weight: bold;
   color: #ec5242;
+  max-width: 100%;
 }
 
 h1 {
-  font-family: "Lato", sans-serif;
+  font-family: "COCOGOOSE", sans-serif;
 }
 
 .subtitle {
@@ -184,14 +186,15 @@ h1 {
   border: 2px solid #fff;
   padding: 16px;
   font-size: 14px;
-  color: #272a31;
+  color: #555;
 }
 
 .dates {
-  font-size: 24px;
-  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-family: "COCOGOOSE", sans-serif;
   font-weight: bold;
   margin: 0 12px 80px 12px;
+  color: #555;
 }
 
 #main-program {
@@ -227,8 +230,8 @@ h1 {
 
 .program-logo {
   width: 30px;
-  margin: 4px;
-  margin-right: 6px;
+  margin-left: 14px;
+  margin-right: 10px;
 }
 
 .program-title {
@@ -267,11 +270,11 @@ h1 {
 }
 
 .partner-logo {
-  margin: 10px;
+  margin: 5px;
 }
 
 .partner-logo img {
-  width: 32vw;
+  width: 24vw;
 }
 
 #footer {
@@ -286,7 +289,7 @@ h1 {
 
 #footer-info {
   font-size: 10px;
-  color: #777;
+  color: #555;
   margin: 40px 40px 40px 15px;
 }
 
@@ -295,7 +298,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f7f7f9;
+  background-image: url("images/background.png");
   text-align: center;
 }
 
@@ -390,6 +393,65 @@ h1 {
   position: relative;
 }
 
+.professors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 24px;
+}
+
+.professors-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 450px;
+}
+
+.professor__image img {
+  width: 120px;
+  height: 120px;
+}
+
+.professor__dsc {
+  display: flex;
+  flex-direction: column;
+}
+
+.professor__dsc h3 {
+  font-size: 16px;
+}
+
+.dsc-1 {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: italic;
+  color: #ec5242;
+  margin: 4px 0;
+}
+
+.professor__dsc span {
+  margin: 4px 0 8px 0;
+  border: 1px #d3d3d3 solid;
+  width: 30px;
+}
+
+.dsc-2 {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}
+
 #mobile_ul li:hover {
   background-color: #ec5242;
 }
@@ -446,23 +508,22 @@ h1 {
     padding: 120px 0 150px 140px;
   }
 
-  .first-title {
+  .first-title{
     margin: 0;
-  }
-
-  .first-title p {
     font-size: 34px;
   }
 
   .second-title {
     margin: 0;
-    margin-top: 20px;
+    margin-top: 8px;
     margin-bottom: 14px;
-    font-size: 44px;
+    font-family: "COCOGOOSE", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
     line-height: 58px;
     width: 800px;
   }
-
+  
   .subtitle {
     margin: 0;
     width: 600px;
@@ -472,6 +533,8 @@ h1 {
   }
 
   .dates {
+    font-family: "COCOGOOSE", sans-serif;
+    font-weight: 500;
     margin: 0;
     margin-top: 30px;
     font-size: 28px;
@@ -525,8 +588,12 @@ h1 {
     margin-bottom: 20px;
   }
 
+  .partner-logo {
+    margin: 20px;
+  }
+
   .partner-logo img {
-    width: 300px;
+    width: 150px;
   }
 
   #footer {
@@ -589,6 +656,15 @@ h1 {
     margin: 0 10px;
   }
 
+  .professors .section-title {
+    margin-top: 0;
+  }
+  
+  .professors-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  
   #see-program-link:hover {
     background-color: #fff;
     color: #272a31;
