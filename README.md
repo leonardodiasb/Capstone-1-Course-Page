@@ -9,6 +9,8 @@ Only the Home and About pages were created.
 
 You can have a look at them through this link: https://leonardodiasb.github.io/Capstone-1-Course-Page/
 
+Here is the loom link: https://www.loom.com/share/11b74a9b791c46418d947f0a6cb3b637
+
 ![screenshot](images/screenshot-desktop.png)  
 ![screenshot](images/screenshot-mobile.png)
 
