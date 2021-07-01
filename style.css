@@ -329,6 +329,11 @@ h1 {
   color: #272a31;
 }
 
+.professor__image img {
+  width: 120px;
+  height: 120px;
+}
+
 .past-classes-box a img {
   max-width: 100%;
   filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-35deg) saturate(600%) contrast(0.8);
@@ -418,11 +423,6 @@ h1 {
   max-width: 450px;
 }
 
-.professor__image img {
-  width: 120px;
-  height: 120px;
-}
-
 .professor__dsc {
   display: flex;
   flex-direction: column;
@@ -508,7 +508,7 @@ h1 {
     padding: 120px 0 150px 140px;
   }
 
-  .first-title{
+  .first-title {
     margin: 0;
     font-size: 34px;
   }
@@ -523,7 +523,7 @@ h1 {
     line-height: 58px;
     width: 800px;
   }
-  
+
   .subtitle {
     margin: 0;
     width: 600px;
@@ -581,6 +581,10 @@ h1 {
     background: none;
     padding: 0;
     margin-bottom: 80px;
+  }
+
+  .professors .section-title {
+    margin-top: 0;
   }
 
   #partner-section .section-title {
@@ -656,15 +660,11 @@ h1 {
     margin: 0 10px;
   }
 
-  .professors .section-title {
-    margin-top: 0;
-  }
-  
   .professors-container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
-  
+
   #see-program-link:hover {
     background-color: #fff;
     color: #272a31;

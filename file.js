@@ -1,3 +1,4 @@
+const hamburger = document.getElementById('hamburger-btn');
 const mobMenu = document.getElementById('mobile_menu');
 
 function myFunction(x) {
@@ -13,7 +14,9 @@ function myFunction(x) {
   }
 }
 
-professors = [
+hamburger.addEventListener('click', myFunction(this));
+
+const professors = [
   {
     name: 'Yann LeCun',
     profession: 'Silver Professor of the Curant Institute of Mathematical Sciences',
@@ -52,7 +55,7 @@ professors = [
   },
 ];
 
-const referencePosition = document.getElementById("main-program");
+const referencePosition = document.getElementById('main-program');
 
 const createProfessorStructureHTML = () => {
   referencePosition.insertAdjacentHTML('afterend',
